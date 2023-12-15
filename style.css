@@ -13,3 +13,9 @@ body {
     overflow: hidden;
     margin: 0;
 }
+
+a {
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+}
