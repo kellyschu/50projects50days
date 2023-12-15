@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
-
+a {
+    color: blueviolet;
+    text-decoration: none;
+    text-transform: uppercase;
+}
 body {
     font-family: 'Muli', sans-serif;
     /* flex-direction: row; */
