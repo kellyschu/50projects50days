@@ -6,6 +6,8 @@ body {
 }
 h1 {
     margin: 10px;
+    color: steelblue;
+    text-shadow: rgb(221, 218, 218) 2px 2px 2px;
 }
 .box {
     background-color: steelblue;
