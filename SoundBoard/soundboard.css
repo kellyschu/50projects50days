@@ -23,3 +23,6 @@ body {
 .btn:focus {
     outline: none;
 }
+a h2 {
+    color: #fff;
+}
