@@ -10,6 +10,9 @@ body {
     max-width: 100%;
     width: 800px;
 }
+h2 {
+    color: #fff;
+}
 h3 {
     margin: 0;
     opacity: .5;
