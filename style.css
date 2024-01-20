@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Montserrat:wght@200;300;400;600&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;200;300&family=Roboto:wght@400;700&family=Work+Sans:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@200;400&display=swap');
 * {
     box-sizing: border-box;
 }
@@ -49,4 +49,8 @@ a {
     transform: scale(1.03);
     box-shadow: inset 0 0 0 1000px rgba(23, 28, 101, 0.8);
     color: rgb(225, 252, 255);
+}
+.display-flex {
+    display: flex;
+    flex-direction: row;
 }

@@ -6,11 +6,12 @@ a {
 }
 body {
     font-family: 'Muli', sans-serif;
+    background-color: azure;
     /* flex-direction: row; */
 }
 .container {
     display: flex;
-    width: 90vw;
+    width: 86vw;
 }
 
 .panel {
