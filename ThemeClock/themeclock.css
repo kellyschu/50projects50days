@@ -7,8 +7,8 @@ html {
   transition: all 0.5s ease-in;
 }
 html.dark {
-  --secondary-color: #fff;
-  --primary-color: #333;
+  --primary-color: #fff;
+  --secondary-color: #1e1e2f;
 }
 html.dark {
   background-color: #111;
@@ -27,6 +27,7 @@ body {
   padding: 8px 12px;
   position: absolute;
   top: 100px;
+  font-family: inherit;
   cursor: pointer;
 }
 .toggle:focus {
