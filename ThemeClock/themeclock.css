@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo");
 :root {
-  --primary-color: #000;
+  --primary-color: #1e1e2f;
   --secondary-color: #f5f5f5;
 }
 html {
-  transition: all 0.5s ease-in;
+  transition: all 0.6s ease-in;
 }
 html.dark {
   --primary-color: #fff;
@@ -52,6 +52,7 @@ body {
   height: 65px;
   width: 3px;
   transform-origin: bottom center;
+  transition: all 0.5s ease-in infinite;
 }
 .needle.hour {
   transform: translate(-50%, -100%) rotate(0deg);
@@ -107,4 +108,10 @@ body {
   line-height: 18px;
   transition: all 0.5s ease-in;
   font-size: 12px;
+}
+h2 {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 10px 0 0 0;
+  color: var(--primary-color);
 }
