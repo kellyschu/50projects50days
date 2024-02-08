@@ -1,0 +1,40 @@
+body {
+  background-color: #213;
+}
+button {
+  position: relative;
+  background-color: rgb(123, 14, 123);
+  color: white;
+  border: 1px solid rgb(123, 14, 123);
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  padding: 20px 30px;
+  overflow: hidden;
+  margin: 10px 0;
+}
+button:focus {
+  outline: none;
+}
+button .circle {
+  position: absolute;
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  animation: scale 0.5s ease-out;
+}
+
+@keyframes scale {
+  to {
+    transform: translate(-50%, -50%) scale(3);
+    opacity: 0;
+  }
+}
+h2 {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 10px 0 0 0;
+  color: whitesmoke;
+}
