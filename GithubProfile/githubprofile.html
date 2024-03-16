@@ -5,11 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GitHub Profiles</title>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
-    <link rel="stylesheet" href="../style.css" />
+    <!-- <link rel="stylesheet" href="../style.css" /> -->
     <link rel="stylesheet" href="githubprofile.css" />
   </head>
   <body>
-    <a href="../index.html"><h2>Check out my other projects ..</h2></a>
+    <!-- <a href="../index.html"><h2>Check out my other projects ..</h2></a> -->
+    <form class="user-form" id="form">
+      <input type="text" id="search" placeholder="Search a GitHub User"/>
+    </form>
+    <main id="main">
+      <div class="card">
+        <div>
+            <img src="https://randomuser.me/api/portraits/men/30.jpg" alt="random user" class="avatar">
+        </div>
+        <div class="user-info">
+            <h2>John Doe</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, recusandae!</p>
+        <ul>
+            <li>428 <strong>Followers</strong></li>
+            <li>123 <strong>Following</strong></li>
+            <li>42 <strong>Repos</strong></li>
+        </ul>
+        <div id="repos">
+            <a href="#" class="repo">Repo 1</a>
+            <a href="#" class="repo">Repo 2</a>
+            <a href="#" class="repo">Repo 3</a>
+
+        </div>
+        </div>
+      </div>
     <script src="githubprofile.js"></script>
   </body>
 </html>
