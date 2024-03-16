@@ -29,8 +29,16 @@ body {
 }
 .toast {
   background-color: white;
-  color: rebeccapurple;
   padding: 1rem 2rem;
   border-radius: 5px;
   margin: 0.5rem;
+}
+.toast.info {
+  color: rebeccapurple;
+}
+.toast.error {
+  color: red;
+}
+.toast.success {
+  color: green;
 }
